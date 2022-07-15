@@ -14,7 +14,8 @@
  .container {
     max-width: 1440px;
     margin: 0 auto;
- }
+
+ }  
 
  .preview {
 
@@ -23,6 +24,7 @@
 
  .preview .container {
     display: flex;
+    padding-left: 163px;
  }
 
  .logo {
