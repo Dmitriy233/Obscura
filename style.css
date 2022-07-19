@@ -20,7 +20,8 @@
  }
 
  .container {
-   max-width: 1440px;
+  max-width: 1440px;
+   max-width: 100%;
    margin: 0 auto;
 
  }
@@ -32,6 +33,7 @@
 
  .preview .container {
    display: flex;
+   justify-content: space-around;
  }
 
  .logo {
