@@ -20,8 +20,7 @@
  }
 
  .container {
-  max-width: 1440px;
-   max-width: 100%;
+   max-width: 1440px;
    margin: 0 auto;
 
  }
@@ -29,11 +28,12 @@
  .preview {
 
    background: black;
+   padding-left: 163px;
  }
 
  .preview .container {
    display: flex;
-   justify-content: space-around;
+
  }
 
  .logo {
@@ -46,7 +46,7 @@
  }
 
  .section_left_text {
-   max-width: 448px;
+   max-width: 451px;
  }
 
  .preview_subtitle {
@@ -134,7 +134,7 @@
    position: absolute;
    left: 50%;
    transform: translateX(-50%);
-   top: 760px;
+   top: 4px;
    z-index: 1;
    white-space: nowrap;
 
@@ -492,12 +492,11 @@
  .galery__list {
    display: flex;
    flex-wrap: wrap;
-   max-width: 100%;
  }
 
  .gallery__item {
-   width: 360px;
-   height: 360px;
+  width: 360px;
+height: 360px;
  }
 
  .footer {
