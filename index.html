@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
         integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
         crossorigin="anonymous" />
@@ -15,6 +15,7 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800;900&family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
+    <title>Obscura</title>
 </head>
 
 <body>
@@ -90,13 +91,20 @@
                         </p>
                     </div>
                     <div class="portfolio_img">
-                        <img class="img" src="./img/portfolio.png" alt="портфолио фото">
+                        <ul class="portfolio__list">
+                            <li>
+                                <img class="img" src="./img/portfolio.png" alt="портфолио фото">
+                            </li>
+                            <li>
+                                <img class="img" src="./img/portfolio.png" alt="портфолио фото">
+                            </li>
+                        </ul>
                     </div>
                     <div class=" container button_portfolio">
-                        <button class="button button--prev button_portfolio__prev ">
+                        <button class="button button--rotate button--portfolio-prev button__portfolio-prev ">
                             prev
                         </button>
-                        <button class="button">
+                        <button class="button button--portfolio-next">
                             next
                         </button>
                     </div>
@@ -111,7 +119,7 @@
                     </h2>
                     <h2 class="feedback__title">
                         What they said about me
-                        </h1>
+                    </h2>
                 </div>
                 <ul class="feedback__list">
                     <li class="feedback__item">
@@ -187,8 +195,8 @@
                     </li>
                 </ul>
                 <div class="feedback__button">
-                    <button class="button button--prev button_portfolio__prev ">prev</button>
-                    <button class="button">next</button>
+                    <button class="button button--rotate button--prev button__portfolio-prev ">prev</button>
+                    <button class="button button--next">next</button>
                 </div>
             </div>
         </section>
@@ -403,6 +411,13 @@
             </div>
         </footer>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"
+        integrity="sha512-p55Bpm5gf7tvTsmkwyszUe4oVMwxJMoff7Jq3J/oHaBk+tNQvDKNz9/gLxn9vyCjgd6SAoqLnL13fnuZzCYAUA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./slider.js"></script>
 </body>
 
 </html>
