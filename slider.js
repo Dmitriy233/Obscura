@@ -8,11 +8,11 @@ const portfolio = $(".portfolio__list").bxSlider({
 
 $(".button--portfolio-prev").click((e) => {
     e.preventDefault();
-    slider.goToPrevSlide();
+    portfolio.goToPrevSlide();
 });
 $(".button--portfolio-next").click((e) => {
     e.preventDefault();
-    slider.goToNextSlide();
+    portfolio.goToNextSlide();
 });
 
 const slider = $(".feedback__list").bxSlider({
